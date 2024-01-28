@@ -1,0 +1,62 @@
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#timer {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 50%;
+    margin: 20px auto;
+    border-collapse: collapse;
+   
+   
+}
+th{
+    background-color: #56e2ec ;
+}
+
+th, td {
+    padding: 10px;
+    border:px solid #ddd;
+    text-align: left;
+    
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+ 
+}
+
+input[type="text"] {
+    width: 300px;
+    padding: 8px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 1rem;
+    box-sizing: border-box;
+}
+
+#startStopBtn {
+    width: fit-content;
+    border-radius: 1rem;
+    background-color: rgb(101, 134, 101);
+    color: white;
+    font-size: 1.25rem;
+    padding: 0.2rem 1rem 0.2rem 1rem;
+    cursor: pointer;
+    height: fit-content;
+}
+#startStopBtn:active {
+    transform: scale(1.02);
+}
+
+#startStopBtn.stop {
+    background-color: #FF0000;
+}
